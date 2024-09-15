@@ -1,0 +1,103 @@
+  body {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #000000;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .p_image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  width: 40%;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.reset-btn {
+  background-color: #ff3333;
+  margin-right: 10px;
+}
+
+.reset-btn:hover {
+  background-color: #cc0000;
+}
+
+.login-link {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  margin-top: 15px;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .container {
+      width: 90%;
+      padding: 20px;
+  }
+}
